@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Hover */
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    
+}
+.nav-search select{
+    background-color: #e6e6e6;
+}
+.nav-search select:hover{
+    background-color: #d4d3d3;
+}
+
+/* NavBar */
+.navbar{
+    background-color: #131921;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Box2 */
+.nav-location p span{
+    color: #cccccc;
+    margin-left: 10px;
+    font-size: 0.75rem;
+}
+.nav-location span{
+    color: #ffffff;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.fa-location-dot{
+    margin-right: 3px;
+}
+
+/* Box3 */
+.nav-search{
+    display: flex;
+    width: 56vw;
+    height: 40px;
+}
+.nav-search select{
+    width: 3rem;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}   
+.nav-text{
+    width: 100%;
+    border: none;
+    font-size: 0.95rem;
+}
+.icon{
+    background-color: #febd69;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Box4 */
+.nav-sing p span{
+    color: #cccccc;
+    font-size: 0.75rem;
+}
+.nav-sing span{
+    color: #ffffff;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Box5 */
+.nav-order p span{
+    color: #cccccc;
+    font-size: 0.75rem;
+}
+.nav-order span{
+    color: #ffffff;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Box6 */
+.cart{
+    color: #ffffff;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.fa-cart-shopping{
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Panel */
+.panel{
+    background-color: #232f3e;
+    height: 5vh;
+}
+.panel-items{
+    color: white;
+    font-size: 1rem;
+}
+.panel-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40vw;
+    height: inherit;
+    font-size: 0.85rem;
+    color: white;
+}
+.fa-solid{
+    font-size: 1.25rem;
+    margin: 5px;
+}
+
+/* Hero section */
+body{
+    background-color: #f2e3f7;
+}
+.hero-section{
+    background-image: url(https://m.media-amazon.com/images/I/61P7hqIHrdL._SX3000_.jpg);
+    height: 38vh;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.float-panel{
+    background-color: #f5f6f6;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 2vh;
+    width: 95vw;
+}
+
+.float-panel span a{
+    text-decoration: none;
+    color: #007185;
+}
+.float-panel span a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #C7511F;
+}
+
+/* Shoping card */
+.shoping-cards{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background: #ffffff;
+    max-width: 24%;
+    min-width: 200px;
+}
+.card-img{
+    height: 35vh;
+}
+.see-more{
+    font-size: 0.80rem;
+    text-decoration: none;
+    color: #007185;
+}
+.see-more:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #C7511F;
+}
+
+/* footer */
+footer{
+    margin-top: 5vh;
+}
+.foot-panel{
+    background-color: #37475A;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.80rem;
+}
+.foot-about{
+    background-color: #242e3a;
+    height: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-content{
+    color: white;   
+}
+.about-content ul li{
+    list-style-type: none;
+    color: #dddddd;
+    font-size: 0.85rem;
+}
+.about-content ul p{
+    font-weight: 700;
+}
+.about-content ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.foot-end{
+    background-color: #242e3a;
+    height: 10vh;
+    border-top: 0.5px solid #6c6c6c;
+}
+.foot-end{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
